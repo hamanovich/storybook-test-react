@@ -1,0 +1,22 @@
+{
+  "name": "fse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "storybook": "start-storybook -p 9009 -s public"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@storybook/react": "^5.2.3",
+    "@types/node": "^12.7.12",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.6.4"
+  }
+}
